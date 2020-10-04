@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\user\eclipse-workspace\battIconBack3\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="3" lineNum="12" pc="268435456" symbol="isSingleFieldLayout"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="3" lineNum="13" pc="268435460" symbol="isSingleFieldLayout"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="4" lineNum="16" pc="268435515" symbol="initialize"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="4" lineNum="17" pc="268435519" symbol="initialize"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="5" lineNum="23" pc="268435538" symbol="onLayout"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="5" lineNum="24" pc="268435542" symbol="onLayout"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="5" lineNum="27" pc="268435561" symbol="onLayout"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="5" lineNum="28" pc="268435604" symbol="onLayout"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="5" lineNum="29" pc="268435628" symbol="onLayout"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="5" lineNum="30" pc="268435650" symbol="onLayout"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="5" lineNum="31" pc="268435674" symbol="onLayout"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="5" lineNum="35" pc="268435696" symbol="onLayout"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="6" lineNum="42" pc="268435700" symbol="compute"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="50" pc="268435705" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="52" pc="268435709" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="54" pc="268435728" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="57" pc="268435745" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="59" pc="268435758" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="60" pc="268435777" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="61" pc="268435796" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="63" pc="268435814" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="65" pc="268435833" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="66" pc="268435846" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="68" pc="268435859" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="69" pc="268435883" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="70" pc="268435890" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="71" pc="268435895" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="72" pc="268435905" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="74" pc="268435918" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="76" pc="268435939" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="78" pc="268435964" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="80" pc="268435988" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="84" pc="268436037" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="86" pc="268436061" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="100" pc="268436132" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="102" pc="268436150" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="103" pc="268436163" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="105" pc="268436179" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="114" pc="268436197" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="115" pc="268436210" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="118" pc="268436226" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="119" pc="268436239" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="125" pc="268436258" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="126" pc="268436271" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="131" pc="268436284" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="134" pc="268436327" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="135" pc="268436351" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="137" pc="268436375" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="138" pc="268436402" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="139" pc="268436426" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="142" pc="268436453" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="143" pc="268436477" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="149" pc="268436501" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="150" pc="268436545" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconView.mc" id="7" lineNum="155" pc="268436565" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="10" lineNum="68" pc="268436586" symbol="getTimeStr"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="10" lineNum="71" pc="268436590" symbol="getTimeStr"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="10" lineNum="74" pc="268436750" symbol="getTimeStr"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="11" lineNum="78" pc="268436754" symbol="onBatteryStatusUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="11" lineNum="82" pc="268436758" symbol="onBatteryStatusUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="11" lineNum="85" pc="268436826" symbol="onBatteryStatusUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="11" lineNum="87" pc="268436845" symbol="onBatteryStatusUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="11" lineNum="88" pc="268436858" symbol="onBatteryStatusUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="11" lineNum="90" pc="268436871" symbol="onBatteryStatusUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="11" lineNum="91" pc="268436895" symbol="onBatteryStatusUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="11" lineNum="92" pc="268436902" symbol="onBatteryStatusUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="11" lineNum="93" pc="268436907" symbol="onBatteryStatusUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="11" lineNum="94" pc="268436917" symbol="onBatteryStatusUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="11" lineNum="96" pc="268436930" symbol="onBatteryStatusUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="11" lineNum="98" pc="268436951" symbol="onBatteryStatusUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="11" lineNum="100" pc="268436970" symbol="onBatteryStatusUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="11" lineNum="102" pc="268436994" symbol="onBatteryStatusUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="11" lineNum="106" pc="268437037" symbol="onBatteryStatusUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="11" lineNum="108" pc="268437061" symbol="onBatteryStatusUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="12" lineNum="121" pc="268437124" symbol="onBikeLightUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="12" lineNum="125" pc="268437128" symbol="onBikeLightUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="12" lineNum="126" pc="268437157" symbol="onBikeLightUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="12" lineNum="129" pc="268437188" symbol="onBikeLightUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="12" lineNum="130" pc="268437271" symbol="onBikeLightUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="12" lineNum="133" pc="268437275" symbol="onBikeLightUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="12" lineNum="134" pc="268437280" symbol="onBikeLightUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="12" lineNum="135" pc="268437290" symbol="onBikeLightUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="12" lineNum="137" pc="268437303" symbol="onBikeLightUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="12" lineNum="138" pc="268437324" symbol="onBikeLightUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="12" lineNum="140" pc="268437343" symbol="onBikeLightUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="12" lineNum="141" pc="268437367" symbol="onBikeLightUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="12" lineNum="145" pc="268437410" symbol="onBikeLightUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="12" lineNum="146" pc="268437434" symbol="onBikeLightUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="13" lineNum="157" pc="268437484" symbol="onLightNetworkStateUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="13" lineNum="159" pc="268437488" symbol="onLightNetworkStateUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="13" lineNum="160" pc="268437535" symbol="onLightNetworkStateUpdate"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="163" pc="268437550" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="165" pc="268437554" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="167" pc="268437564" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="168" pc="268437577" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="170" pc="268437590" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="171" pc="268437609" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="172" pc="268437628" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="174" pc="268437646" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="176" pc="268437665" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="177" pc="268437678" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="179" pc="268437691" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="180" pc="268437715" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="181" pc="268437722" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="182" pc="268437727" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="183" pc="268437737" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="185" pc="268437750" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="187" pc="268437771" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="189" pc="268437790" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="191" pc="268437814" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="195" pc="268437857" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="197" pc="268437881" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="211" pc="268437946" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="213" pc="268437964" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="214" pc="268437977" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="216" pc="268437993" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="225" pc="268438011" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="226" pc="268438024" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="229" pc="268438040" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="230" pc="268438053" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="236" pc="268438069" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="237" pc="268438082" symbol="callback1"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="29" pc="268439196" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="14" lineNum="40" pc="268439470" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="16" lineNum="246" pc="268438099" symbol="initialize"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="16" lineNum="256" pc="268438103" symbol="initialize"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="16" lineNum="257" pc="268438120" symbol="initialize"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="16" lineNum="258" pc="268438144" symbol="initialize"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="16" lineNum="260" pc="268438185" symbol="initialize"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="17" lineNum="264" pc="268438204" symbol="onStart"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="18" lineNum="268" pc="268438209" symbol="onStop"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="19" lineNum="272" pc="268438214" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="19" lineNum="273" pc="268438218" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="20" lineNum="276" pc="268438256" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="20" lineNum="277" pc="268438260" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="20" lineNum="278" pc="268438277" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconApp.mc" id="20" lineNum="279" pc="268438301" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconBackground.mc" id="22" lineNum="16" pc="268438343" symbol="initialize"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconBackground.mc" id="22" lineNum="17" pc="268438347" symbol="initialize"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconBackground.mc" id="22" lineNum="21" pc="268438368" symbol="initialize"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconBackground.mc" id="22" lineNum="23" pc="268438388" symbol="initialize"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconBackground.mc" id="22" lineNum="25" pc="268438401" symbol="initialize"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconBackground.mc" id="22" lineNum="26" pc="268438431" symbol="initialize"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconBackground.mc" id="22" lineNum="29" pc="268438473" symbol="initialize"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconBackground.mc" id="22" lineNum="30" pc="268438486" symbol="initialize"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconBackground.mc" id="23" lineNum="34" pc="268438500" symbol="setColor"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconBackground.mc" id="23" lineNum="35" pc="268438504" symbol="setColor"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconBackground.mc" id="24" lineNum="38" pc="268438515" symbol="draw"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconBackground.mc" id="24" lineNum="39" pc="268438519" symbol="draw"/>
+        <entry filename="C:\\Users\\user\\eclipse-workspace\\battIconBack3\\source\\battIconBackground.mc" id="24" lineNum="40" pc="268438551" symbol="draw"/>
+        <entry filename="Rez" id="30" lineNum="15" pc="268438564" symbol="MainLayout"/>
+        <entry filename="Rez" id="30" lineNum="17" pc="268438576" symbol="MainLayout"/>
+        <entry filename="Rez" id="30" lineNum="18" pc="268438589" symbol="MainLayout"/>
+        <entry filename="Rez" id="30" lineNum="20" pc="268438602" symbol="MainLayout"/>
+        <entry filename="Rez" id="30" lineNum="21" pc="268438626" symbol="MainLayout"/>
+        <entry filename="Rez" id="30" lineNum="22" pc="268438789" symbol="MainLayout"/>
+        <entry filename="Rez" id="30" lineNum="24" pc="268438952" symbol="MainLayout"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="8389344" symbol="seconds"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="8388700" method="true" symbol="callback1"/>
+        <entry id="4" module="true" symbol="globals/Rez/Menus"/>
+        <entry field="true" id="25" symbol="beep_title"/>
+        <entry id="24" method="true" symbol="MainLayout"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="15" symbol="frontStr"/>
+        <entry field="true" id="18" symbol="beepOn"/>
+        <entry field="true" id="26" symbol="AppName"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="10" object="true" symbol="battIconView"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry field="true" id="8389138" symbol="label"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389410" module="true" symbol="AntPlus"/>
+        <entry field="true" id="14" symbol="mLightNetwork"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="22" module="true" symbol="Menus"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="29" method="true" symbol="getTimeStr"/>
+        <entry id="27" method="true" symbol="isSingleFieldLayout"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="8389137" method="true" symbol="compute"/>
+        <entry field="true" id="16" symbol="backStr"/>
+        <entry id="8390048" method="true" symbol="onBikeLightUpdate"/>
+        <entry id="8389131" method="true" symbol="setColor"/>
+        <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="8390047" method="true" symbol="onLightNetworkStateUpdate"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8390037" method="true" symbol="onBatteryStatusUpdate"/>
+        <entry field="true" id="17" symbol="back1Str"/>
+        <entry id="8388985" method="true" symbol="playTone"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry id="9" module="true" symbol="globals/MyLightNetworkListener"/>
+        <entry field="true" id="8389130" symbol="mColor"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="23" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="20" object="true" symbol="battIconApp"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="31" symbol="LIGHT_MODE_NAMES"/>
+        <entry id="8390146" module="true" object="true" symbol="Background"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="30" symbol="BATTERY_STATUS_NAMES"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="19" object="true" symbol="MyLightNetworkListener"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389347" symbol="color"/>
+        <entry field="true" id="11" symbol="isNetworkNewlyFormed"/>
+        <entry id="21" module="true" symbol="Layouts"/>
+        <entry field="true" id="13" symbol="mLightNetworkListener"/>
+        <entry id="8388636" module="true" symbol="Attention"/>
+        <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
+        <entry field="true" id="12" symbol="networkState"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="28" symbol="mNetworkState"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435699" name="valueView" stackId="4" startPc="268435542"/>
+        <entry endPc="268435699" name="labelView" stackId="3" startPc="268435542"/>
+        <entry endPc="268435699" name="obscurityFlags" stackId="2" startPc="268435542"/>
+        <entry arg="true" endPc="268435700" name="dc" stackId="1" startPc="268435538"/>
+        <entry arg="true" endPc="268435705" name="info" stackId="1" startPc="268435700"/>
+        <entry endPc="268436110" name="modeStr" stackId="8" startPc="268435918"/>
+        <entry endPc="268436110" name="batteryStatus" stackId="7" startPc="268435918"/>
+        <entry endPc="268436113" name="bikeLightId" stackId="6" startPc="268435895"/>
+        <entry endPc="268436116" name="light" stackId="5" startPc="268435883"/>
+        <entry endPc="268436129" name="idx" stackId="4" startPc="268435883"/>
+        <entry endPc="268436129" name="ligtsArray" stackId="3" startPc="268435814"/>
+        <entry endPc="268436252" name="netState" stackId="2" startPc="268435777"/>
+        <entry endPc="268436585" name="height" stackId="10" startPc="268435709"/>
+        <entry endPc="268436585" name="backLight" stackId="12" startPc="268435709"/>
+        <entry endPc="268436585" name="frontLight" stackId="11" startPc="268435709"/>
+        <entry endPc="268436585" name="width" stackId="9" startPc="268435709"/>
+        <entry arg="true" endPc="268436586" name="dc" stackId="1" startPc="268435705"/>
+        <entry endPc="268436753" name="str1" stackId="1" startPc="268436590"/>
+        <entry endPc="268437104" name="modeStr" stackId="7" startPc="268436930"/>
+        <entry endPc="268437104" name="batteryStatus" stackId="6" startPc="268436930"/>
+        <entry endPc="268437107" name="bikeLightId" stackId="5" startPc="268436907"/>
+        <entry endPc="268437110" name="light" stackId="4" startPc="268436895"/>
+        <entry endPc="268437123" name="idx" stackId="3" startPc="268436895"/>
+        <entry endPc="268437123" name="ligtsArray" stackId="2" startPc="268436758"/>
+        <entry arg="true" endPc="268437124" name="data" stackId="1" startPc="268436754"/>
+        <entry endPc="268437477" name="modeStr" stackId="5" startPc="268437303"/>
+        <entry endPc="268437477" name="batteryStatus" stackId="4" startPc="268437303"/>
+        <entry endPc="268437480" name="bikeLightId" stackId="3" startPc="268437280"/>
+        <entry endPc="268437483" name="light" stackId="2" startPc="268437128"/>
+        <entry arg="true" endPc="268437484" name="data" stackId="1" startPc="268437124"/>
+        <entry arg="true" endPc="268437550" name="data" stackId="1" startPc="268437484"/>
+        <entry endPc="268437924" name="modeStr" stackId="8" startPc="268437750"/>
+        <entry endPc="268437924" name="batteryStatus" stackId="7" startPc="268437750"/>
+        <entry endPc="268437927" name="bikeLightId" stackId="6" startPc="268437727"/>
+        <entry endPc="268437930" name="light" stackId="5" startPc="268437715"/>
+        <entry endPc="268437943" name="idx" stackId="4" startPc="268437715"/>
+        <entry endPc="268437943" name="ligtsArray" stackId="3" startPc="268437646"/>
+        <entry endPc="268438066" name="netState" stackId="2" startPc="268437609"/>
+        <entry arg="true" endPc="268438096" name="data" stackId="1" startPc="268437550"/>
+        <entry endPc="268438203" name="app" stackId="1" startPc="268438103"/>
+        <entry arg="true" endPc="268438209" name="state" stackId="1" startPc="268438204"/>
+        <entry arg="true" endPc="268438214" name="state" stackId="1" startPc="268438209"/>
+        <entry endPc="268438342" name="app" stackId="1" startPc="268438260"/>
+        <entry endPc="268438499" name="dictionary" stackId="1" startPc="268438347"/>
+        <entry arg="true" endPc="268438515" name="color" stackId="1" startPc="268438500"/>
+        <entry arg="true" endPc="268438564" name="dc" stackId="1" startPc="268438515"/>
+        <entry endPc="268438989" name="rez_cmp_local_text_lampBack" stackId="6" startPc="268438576"/>
+        <entry endPc="268438989" name="rez_cmp_local_custom_drawable_13850542628156236751" stackId="4" startPc="268438576"/>
+        <entry endPc="268438989" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268438576"/>
+        <entry endPc="268438989" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268438576"/>
+        <entry endPc="268438989" name="rez_cmp_local_text_lampFront" stackId="5" startPc="268438576"/>
+        <entry arg="true" endPc="268438990" name="dc" stackId="1" startPc="268438564"/>
+    </localVars>
+    <annotations/>
+    <dataEntryOffsetMappings>
+        <dataEntry offset="95" parentId="" symbolId="globals" type="module"/>
+        <dataEntry offset="246" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry offset="317" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry offset="396" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry offset="435" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry offset="466" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry offset="497" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry offset="536" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry offset="567" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry offset="622" parentId="globals" symbolId="battIconView" type="class"/>
+        <dataEntry offset="701" parentId="globals" symbolId="MyLightNetworkListener" type="class"/>
+        <dataEntry offset="843" parentId="globals" symbolId="battIconApp" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" name="isSingleFieldLayout" parent="battIconView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="battIconView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onLayout" parent="battIconView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="compute" parent="battIconView">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onUpdate" parent="battIconView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getTimeStr" parent="MyLightNetworkListener">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onBatteryStatusUpdate" parent="MyLightNetworkListener">
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onBikeLightUpdate" parent="MyLightNetworkListener">
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onLightNetworkStateUpdate" parent="MyLightNetworkListener">
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="callback1" parent="MyLightNetworkListener">
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="battIconApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="battIconApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="battIconApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getInitialView" parent="battIconApp">
+            <documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onSettingsChanged" parent="battIconApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="Background">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="setColor" parent="Background">
+            <param id="color"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="draw" parent="Background">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="MainLayout" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
