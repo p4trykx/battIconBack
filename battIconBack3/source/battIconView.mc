@@ -25,10 +25,13 @@ class battIconView extends Ui.DataField {
         // Use the generic, centered layout
 
          View.setLayout(Rez.Layouts.MainLayout(dc));
-         var labelView = View.findDrawableById("lampFront");
-         labelView.locY = labelView.locY - 16;
-         var valueView = View.findDrawableById("lampBack");
-         valueView.locY = valueView.locY + 7;
+         var frontlView = View.findDrawableById("lampFront");
+         frontlView.locY = frontlView.locY - 20;
+         var backView = View.findDrawableById("lampBack");
+         backView.locY = backView.locY ;
+         var dbgView = View.findDrawableById("dbg");
+         dbgView.locY = dbgView.locY + 20;
+         
 
         //View.findDrawableById("label").setText(Rez.Strings.label);
         
@@ -50,77 +53,58 @@ class battIconView extends Ui.DataField {
     function onUpdate(dc) {
     
         seconds +=1;
-        
         if ( seconds > 60 )
         {
-        
-        	seconds = 0;
-        	
-        if (null != mLightNetworkListener.mNetworkState) {
-        	var netState = mLightNetwork.getNetworkState();
-			if ( netState == AntPlus.LIGHT_NETWORK_STATE_FORMED ) {
-				 
-				var ligtsArray = mLightNetwork.getBikeLights();	 
-				
-				frontStr = "No front";
-				backStr  = "No back";
-				
-				for ( var idx =0; idx < ligtsArray.size() ;idx++) {
-					var light = ligtsArray[idx];
-					if (light ){
+	       	dbgStr = "timer updt";
+	       	seconds = 0;
+	        if (null != mLightNetworkListener.mNetworkState) {
+	        	var netState = mLightNetwork.getNetworkState();
+				if ( netState == AntPlus.LIGHT_NETWORK_STATE_FORMED ) {
+					var ligtsArray = mLightNetwork.getBikeLights();	 
+					frontStr = "No front";
+					backStr  = "No back";
+					
+					for ( var idx =0; idx < ligtsArray.size() ;idx++) {
+						var light = ligtsArray[idx];
 						var bikeLightId = light.identifier;
 						if  ( null != mLightNetwork)
 						{ 
-		                	var batteryStatus = mLightNetwork.getBatteryStatus(bikeLightId);
-		                	
-		                	var modeStr = MyLightNetworkListener.LIGHT_MODE_NAMES[light.mode]; 
-		                	
+			            	var batteryStatus = mLightNetwork.getBatteryStatus(light.identifier);
 		                	if ( light.type == AntPlus.LIGHT_TYPE_HEADLIGHT )
 							{ 
-								frontStr =  "sH "+
-									MyLightNetworkListener.BATTERY_STATUS_NAMES[batteryStatus.batteryStatus] 
-									+" "+modeStr;
-							}
-							else if ( light.type == AntPlus.LIGHT_TYPE_TAILLIGHT )
-							{ 
-								backStr = "sT "+
-									MyLightNetworkListener.BATTERY_STATUS_NAMES[batteryStatus.batteryStatus] 
-									+" "+modeStr;
-							}		
-							
-						} 
+								frontStr = MyLightNetworkListener.BATTERY_STATUS_NAMES[batteryStatus.batteryStatus] 
+										 +" "+
+										MyLightNetworkListener.LIGHT_MODE_NAMES_FRONT[light.mode];
+									
+								}
+								else if ( light.type == AntPlus.LIGHT_TYPE_TAILLIGHT )
+								{ 
+									backStr = MyLightNetworkListener.BATTERY_STATUS_NAMES[batteryStatus.batteryStatus] 
+											+" "+
+											MyLightNetworkListener.LIGHT_MODE_NAMES_BACK[light.mode];
+								}		
+						}
+					}//for
+				   //value.setText("F "+txt);
+				  // System.println("F "+txt);
+				   //View.findDrawableById("label").setText(txt);
 					}
-				}//for
-				  
-			   //value.setText("F "+txt);
-			  // System.println("F "+txt);
-			   //View.findDrawableById("label").setText(txt);
-			}
-			
-			else if ( netState == AntPlus.LIGHT_NETWORK_STATE_FORMING )
-			{
-			   frontStr = "Net forming";
-		       backStr = "Net forming";
-		    }
-		    else if ( netState == AntPlus.LIGHT_NETWORK_STATE_NOT_FORMED )
-			{
-			   
-			   
-			   //frontStr =    Gregorian.info(Time.now(), Time.FORMAT_SHORT).hour +":"
-			    //            +Gregorian.info(Time.now(), Time.FORMAT_SHORT).minute+":"
-			    //            +Gregorian.info(Time.now(), Time.FORMAT_SHORT).sec;
-			                
-			                
-			   frontStr = "NOT formed" ;
-		       backStr = "NOT formed";
-		    }else 
-			{
-			   frontStr = "Other state";
-		       backStr = "Other state";
-		    }
-        	}
-        
-        }
+					else if ( netState == AntPlus.LIGHT_NETWORK_STATE_FORMING )
+					{
+					   frontStr = "Net forming";
+				       backStr = "Net forming";
+				    }
+				    else if ( netState == AntPlus.LIGHT_NETWORK_STATE_NOT_FORMED )
+					{
+					   frontStr = "NOT formed" ;
+				       backStr = "NOT formed";
+				    }else 
+					{
+					   frontStr = "Other state";
+				       backStr = "Other state";
+				    }
+	        }//mLightNetwork
+       	}//60 seconds
         
         var width = dc.getWidth();
         var height = dc.getHeight();
@@ -133,24 +117,22 @@ class battIconView extends Ui.DataField {
         // Set the foreground color and value
         var frontLight = View.findDrawableById("lampFront");
         var backLight =  View.findDrawableById("lampBack");
+        var dbgLabel = View.findDrawableById("dbg");
         
         if (getBackgroundColor() == Gfx.COLOR_BLACK) {
             frontLight.setColor(Gfx.COLOR_WHITE);
             backLight.setColor(Gfx.COLOR_WHITE);
+            dbgLabel.setColor(Gfx.COLOR_WHITE);
             
         } else {
             frontLight.setColor(Gfx.COLOR_BLACK);
             backLight.setColor(Gfx.COLOR_BLACK);
+            dbgLabel.setColor(Gfx.COLOR_BLACK);
         }
-        
-        
-        //frontLight.setText(mValue.format("%.2f"));
-        
-        frontLight.setText(frontStr + " "+seconds.toString());
-        backLight.setText(backStr);
-        //backLight.setText(back1Str);
-        
                 
+        frontLight.setText(frontStr);
+        backLight.setText(backStr);
+        dbgLabel.setText(dbgStr+" "+seconds.toString());
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
         

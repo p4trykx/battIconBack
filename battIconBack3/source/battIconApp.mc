@@ -12,6 +12,7 @@ var mLightNetwork ;
 
 var frontStr = "Front";
 var backStr  = "Back";
+var dbgStr ="dgb";
 
 var seconds = 0;
 
@@ -37,7 +38,30 @@ class MyLightNetworkListener extends AntPlus.LightNetworkListener {
                  };
                  
                  
-    public  static var LIGHT_MODE_NAMES ={
+    public  static var LIGHT_MODE_NAMES_FRONT ={
+                0 => "OFF",	
+				1 => "ST100",  //Steady beam 81-100% intensity
+				2 => "ST80",  //Steady beam 61-80% intensity
+				3 => "ST60", //Steady beam 41-60% intensity
+				4 => "ST40", //Steady beam 21-40% intensity
+				5 => "ST20", //Steady beam 0-20% intensity
+				6 => "SL_FLH",//Slow flash mode
+				7 => "FST_FLH",	//Fast flash mode
+				8 => "RAN_FLH", //Randomly timed flash mode	
+				9 => "AUTO",	//auto?	
+				10 => "SIGNAL_LEFT_SC", //	Turn signal left self-cancelling
+				11 => "SIGNAL_LEFT", //Turn signal left
+				12 => "SIGNAL_RIGHT_SC", //Turn signal right self-cancelling
+				13 => "SIGNAL_RIGHT",	//Turn signal right
+				14 => "HAZARD", //Hazard - right and left signals flash
+				59 => "CUS5", //Custom mode (manufacturer-defined)
+				60 => "CUS4",	//Custom mode (manufacturer-defined)
+				61 => "CUS3",	//Custom mode (manufacturer-defined)	
+				62 => "CUS2",	//Custom mode (manufacturer-defined)
+				63 => "CUS1"	//Custom mode (manufacturer-defined)
+		};
+		
+		public  static var LIGHT_MODE_NAMES_BACK ={
                 0 => "OFF",	
 				1 => "ST100",  //Steady beam 81-100% intensity
 				2 => "ST80",  //Steady beam 61-80% intensity
@@ -77,137 +101,103 @@ class MyLightNetworkListener extends AntPlus.LightNetworkListener {
     
     function onBatteryStatusUpdate(data)
     {
-    	
-    	
-	   	 System.println(getTimeStr()+" Bat Status "+  BATTERY_STATUS_NAMES[data.batteryStatus]+" ID="+data.identifier );
-    	
-    	
+    	var batStatus = data; //it has bat status and identifier
+		System.println(getTimeStr()+" Bat Status "+  BATTERY_STATUS_NAMES[batStatus.batteryStatus]+" ID="+batStatus.identifier );
+    
+    	if (  null != mLightNetwork )
+    	{
     		var ligtsArray = mLightNetwork.getBikeLights();	 
-				
-				frontStr = "No front";
-				backStr  = "No back";
-				
-				for ( var idx =0; idx < ligtsArray.size() ;idx++) {
-					var light = ligtsArray[idx];
-					if (light ){
-						var bikeLightId = light.identifier;
-						if  ( null != mLightNetwork)
-						{ 
-		                	var batteryStatus = mLightNetwork.getBatteryStatus(bikeLightId);
-		                	
-		                	var modeStr = LIGHT_MODE_NAMES[light.mode]; 
-		                	
-		                	if ( light.type == AntPlus.LIGHT_TYPE_HEADLIGHT )
-							{ 
-								frontStr =  "bH "+
-									BATTERY_STATUS_NAMES[batteryStatus.batteryStatus] 
-									+" "+modeStr;
-							}
-							else if ( light.type == AntPlus.LIGHT_TYPE_TAILLIGHT )
-							{ 
-								backStr = "bT "+
-									BATTERY_STATUS_NAMES[batteryStatus.batteryStatus] 
-									+" "+modeStr;
-							}		
-							
-						} 
+			frontStr = "No front";
+			backStr  = "No back";
+			for ( var idx =0; idx < ligtsArray.size() ;idx++) {
+				var light = ligtsArray[idx];
+				var batteryStatus = mLightNetwork.getBatteryStatus( light.identifier );
+               	if ( light.type == AntPlus.LIGHT_TYPE_HEADLIGHT )
+				{ 
+					frontStr =  BATTERY_STATUS_NAMES[batteryStatus.batteryStatus] 
+									+" "+
+								LIGHT_MODE_NAMES_FRONT[light.mode];
+					if ( light.identifier == batStatus.identifier )	{
+						dbgStr = "frnt bat updt";
 					}
-				}//for
-				  
-				  
-    	//callback1(data);
+				}
+				else if ( light.type == AntPlus.LIGHT_TYPE_TAILLIGHT )
+				{ 
+					backStr = BATTERY_STATUS_NAMES[batteryStatus.batteryStatus] 
+							   +" "+
+							  LIGHT_MODE_NAMES_BACK[light.mode];
+					if ( light.identifier == batStatus.identifier )	{
+						dbgStr = "back bat updt";
+					}
+				}		
+			}//for
+		}//mLightNetwork
     }
     
     function onBikeLightUpdate(data) {
-    	//callback1(data);
-
-
+		//mode changed by button or beacuse of light change
 		if ( (Attention has :playTone) && beepOn ) {
    			Attention.playTone(Attention.TONE_LOUD_BEEP);
 		}	
-    	
-    	System.println(getTimeStr()+" Bike Light update "+data.type + " mode="+  LIGHT_MODE_NAMES[data.mode]+" ID="+data.identifier);
     	var light = data;
-    	
-    	
-    	if (light ){
-			var bikeLightId = light.identifier;
-			if  ( null != mLightNetwork)
-			{ 
-		      	var batteryStatus = mLightNetwork.getBatteryStatus(bikeLightId);
-		       	var modeStr = LIGHT_MODE_NAMES[light.mode]; 
-		               	
-		       	if ( light.type == AntPlus.LIGHT_TYPE_HEADLIGHT ){ 
-					frontStr =  "uH "+
-						BATTERY_STATUS_NAMES[batteryStatus.batteryStatus] 
-							+" "+modeStr;
-				}
-				else if ( light.type == AntPlus.LIGHT_TYPE_TAILLIGHT )	{ 
-					backStr = "uT "+
-					BATTERY_STATUS_NAMES[batteryStatus.batteryStatus] 
-						+" "+modeStr;
-				}		
-			} 
-		}
-    	
+		if  ( null != mLightNetwork)
+		{ 
+			var batteryStatus = mLightNetwork.getBatteryStatus( light.identifier );
+	       	if ( light.type == AntPlus.LIGHT_TYPE_HEADLIGHT ){ 
+				frontStr = BATTERY_STATUS_NAMES[batteryStatus.batteryStatus] 
+							+" "+
+						  LIGHT_MODE_NAMES_FRONT[light.mode];
+				dbgStr = "frnt state updt";	  
+				System.println(getTimeStr()+" Bike Light update "+light.type + " mode="+  LIGHT_MODE_NAMES_FRONT[light.mode]+" ID="+light.identifier);
+			}
+			else if ( light.type == AntPlus.LIGHT_TYPE_TAILLIGHT )	{ 
+				backStr = BATTERY_STATUS_NAMES[batteryStatus.batteryStatus] 
+						  +" "+
+						  LIGHT_MODE_NAMES_BACK[light.mode];
+				dbgStr = "back state updt";
+				System.println(getTimeStr()+" Bike Light update "+light.type + " mode="+  LIGHT_MODE_NAMES_BACK[light.mode]+" ID="+light.identifier);
+			}		
+		}//mLightNetwork
     }
     
     
 
     function onLightNetworkStateUpdate(data) {
-    	
-    	System.println(getTimeStr()+" Light NetUpdate "+data.toString());
-    	callback1(data);
-    }
-
-	function callback1(data) {
-	
         mNetworkState = data;
-        
         frontStr = "Front listner";
 		backStr  = "Back listner";
-		
+		dbgStr = "net state updt";
+
+    	System.println(getTimeStr()+" Light NetUpdate "+ mNetworkState.toString());
+    	
 		if (null != mLightNetworkListener.mNetworkState) {
 			var netState = mLightNetwork.getNetworkState();
 			if ( netState == AntPlus.LIGHT_NETWORK_STATE_FORMED ) {
 				 
 				var ligtsArray = mLightNetwork.getBikeLights();	 
-				
 				frontStr = "No front";
 				backStr  = "No back";
 				
 				for ( var idx =0; idx < ligtsArray.size() ;idx++) {
 					var light = ligtsArray[idx];
-					if (light ){
-						var bikeLightId = light.identifier;
-						if  ( null != mLightNetwork)
+					if  ( null != mLightNetwork)
+					{ 
+	                	var batteryStatus = mLightNetwork.getBatteryStatus( light.identifier );
+	                	if ( light.type == AntPlus.LIGHT_TYPE_HEADLIGHT )
 						{ 
-		                	var batteryStatus = mLightNetwork.getBatteryStatus(bikeLightId);
-		                	
-		                	var modeStr = LIGHT_MODE_NAMES[light.mode]; 
-		                	
-		                	if ( light.type == AntPlus.LIGHT_TYPE_HEADLIGHT )
-							{ 
-								frontStr =  "cH "+
-									BATTERY_STATUS_NAMES[batteryStatus.batteryStatus] 
-									+" "+modeStr;
-							}
-							else if ( light.type == AntPlus.LIGHT_TYPE_TAILLIGHT )
-							{ 
-								backStr = "cT "+
-									BATTERY_STATUS_NAMES[batteryStatus.batteryStatus] 
-									+" "+modeStr;
-							}		
-							
-						} 
-					}
+							frontStr = BATTERY_STATUS_NAMES[batteryStatus.batteryStatus] 
+										+" "+
+										LIGHT_MODE_NAMES_FRONT[light.mode];
+						}
+						else if ( light.type == AntPlus.LIGHT_TYPE_TAILLIGHT )
+						{ 
+							backStr = BATTERY_STATUS_NAMES[batteryStatus.batteryStatus] 
+									   +" "+
+								 	LIGHT_MODE_NAMES_BACK[light.mode];
+						}
+					}//mLightNetwork		
 				}//for
-				  
-			   //value.setText("F "+txt);
-			  // System.println("F "+txt);
-			   //View.findDrawableById("label").setText(txt);
 			}
-			
 			else if ( netState == AntPlus. LIGHT_NETWORK_STATE_FORMING )
 			{
 			   frontStr = "Net forming";
@@ -215,22 +205,14 @@ class MyLightNetworkListener extends AntPlus.LightNetworkListener {
 		    }
 		    else if ( netState == AntPlus. LIGHT_NETWORK_STATE_NOT_FORMED )
 			{
-			   
-			   
-			   //frontStr =    Gregorian.info(Time.now(), Time.FORMAT_SHORT).hour +":"
-			    //            +Gregorian.info(Time.now(), Time.FORMAT_SHORT).minute+":"
-			    //            +Gregorian.info(Time.now(), Time.FORMAT_SHORT).sec;
-			                
-			                
 			   frontStr = "NOT formed ";
 		       backStr = "NOT formed";
+		       
 		    }else 
 			{
 			   frontStr = "Other state";
 		       backStr = "Other state";
 		    }
-		    
-             
         }else
         {
         	frontStr = "Null";
@@ -244,15 +226,10 @@ class battIconApp extends Application.AppBase {
 
                  
     function initialize() {
-     	
      	//mLightNetworkListener = new MyLightNetworkListener();
         //mLightNetwork = new AntPlus.LightNetwork(mLightNetworkListener);
-        
-        
 		//frontStr = "Front init";
 		//backStr  = "Back init";
-	     	
-	     	  
 	    var app = Application.getApp();
 	    beepOn = app.getProperty("beep_prop");
      	System.println("Beep Init "+beepOn.toString() );
