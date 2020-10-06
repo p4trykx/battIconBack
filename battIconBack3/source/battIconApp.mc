@@ -57,8 +57,8 @@ class MyLightNetworkListener extends AntPlus.LightNetworkListener {
 				59 => "CUS5", //Custom mode (manufacturer-defined)
 				60 => "CUS4",	//Custom mode (manufacturer-defined)
 				61 => "CUS3",	//Custom mode (manufacturer-defined)	
-				62 => "CUS2",	//Custom mode (manufacturer-defined)
-				63 => "CUS1"	//Custom mode (manufacturer-defined)
+				62 => "NG_FLH",	//Custom mode (manufacturer-defined)
+				63 => "DY_FLH"	//Custom mode (manufacturer-defined)
 		};
 		
 		public  static var LIGHT_MODE_NAMES_BACK ={
@@ -81,7 +81,7 @@ class MyLightNetworkListener extends AntPlus.LightNetworkListener {
 				60 => "CUS4",	//Custom mode (manufacturer-defined)
 				61 => "CUS3",	//Custom mode (manufacturer-defined)	
 				62 => "CUS2",	//Custom mode (manufacturer-defined)
-				63 => "CUS1"	//Custom mode (manufacturer-defined)
+				63 => "N_FLH"	//Custom mode (manufacturer-defined)
 		};
                  
                  
