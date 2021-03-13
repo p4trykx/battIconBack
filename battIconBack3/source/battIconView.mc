@@ -23,15 +23,30 @@ class battIconView extends Ui.DataField {
     function onLayout(dc) {
         var obscurityFlags = DataField.getObscurityFlags();
         // Use the generic, centered layout
-
-         View.setLayout(Rez.Layouts.MainLayout(dc));
-         var frontlView = View.findDrawableById("lampFront");
-         frontlView.locY = frontlView.locY - 20;
-         var backView = View.findDrawableById("lampBack");
-         backView.locY = backView.locY ;
-         var dbgView = View.findDrawableById("dbg");
-         dbgView.locY = dbgView.locY + 20;
+		if ( DBG_MODE == true )
+		{
+	         View.setLayout(Rez.Layouts.MainLayout(dc));
+	         var frontlView = View.findDrawableById("lampFront");
+	         frontlView.locY = frontlView.locY - 20;
+	         var backView = View.findDrawableById("lampBack");
+	         backView.locY = backView.locY ;
+	         var dbgView = View.findDrawableById("dbg");
+	         dbgView.locY = dbgView.locY + 20;
+         }else
+         {
+         	View.setLayout(Rez.Layouts.MainLayout(dc));
+	         var frontlView = View.findDrawableById("lampFront");
+	         frontlView.locY = frontlView.locY - 20;
+	         frontlView.setFont( Gfx.FONT_MEDIUM );
+	         
+	         var backView = View.findDrawableById("lampBack");
+	         backView.locY = backView.locY+10 ;
+	         backView.setFont ( Gfx.FONT_MEDIUM) ;
+	        
+	         var dbgView = View.findDrawableById("dbg");
+	         dbgView.locY = dbgView.locY + 50;
          
+         }
 
         //View.findDrawableById("label").setText(Rez.Strings.label);
         
@@ -44,7 +59,25 @@ class battIconView extends Ui.DataField {
     // guarantee that compute() will be called before onUpdate().
     function compute(info) {
         // See Activity.Info in the documentation for available information.
-        
+         var averageSpeed = info.averageSpeed ? info.averageSpeed : 0;  // meters per second
+         var distanceToEnd = info.distanceToDestination ? info.distanceToDestination :0;//meters
+         var timeToFinishSec = 0;
+         
+         if ( averageSpeed >0 ){
+         	
+         	timeToFinishSec = distanceToEnd / averageSpeed ;  
+         	var timeToFinishH = timeToFinishSec/ 60 / 60 ;	
+         	dbgStr = timeToFinishH + " h";
+         
+         }else
+         {
+         	var distKm = distanceToEnd/1000; 
+         	dbgStr = distKm + " km";	
+         }
+         
+         
+         
+         
     }
 
     // Display the value you computed here. This will be called

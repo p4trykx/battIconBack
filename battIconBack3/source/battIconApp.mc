@@ -22,6 +22,8 @@ var back1Str = "init";
 
 var beepOn = false;
 
+var DBG_MODE = false;
+
 class MyLightNetworkListener extends AntPlus.LightNetworkListener {
 
 
@@ -46,8 +48,8 @@ class MyLightNetworkListener extends AntPlus.LightNetworkListener {
 				4 => "ST40", //Steady beam 21-40% intensity
 				5 => "ST20", //Steady beam 0-20% intensity
 				6 => "SL_FLH",//Slow flash mode
-				7 => "FST_FLH",	//Fast flash mode
-				8 => "RAN_FLH", //Randomly timed flash mode	
+				7 => "FS_FLH",	//Fast flash mode
+				8 => "RN_FLH", //Randomly timed flash mode	
 				9 => "AUTO",	//auto?	
 				10 => "SIGNAL_LEFT_SC", //	Turn signal left self-cancelling
 				11 => "SIGNAL_LEFT", //Turn signal left
@@ -69,8 +71,8 @@ class MyLightNetworkListener extends AntPlus.LightNetworkListener {
 				4 => "ST40", //Steady beam 21-40% intensity
 				5 => "ST20", //Steady beam 0-20% intensity
 				6 => "SL_FLH",//Slow flash mode
-				7 => "FST_FLH",	//Fast flash mode
-				8 => "RAN_FLH", //Randomly timed flash mode	
+				7 => "FS_FLH",	//Fast flash mode
+				8 => "RN_FLH", //Randomly timed flash mode	
 				9 => "AUTO",	//auto?	
 				10 => "SIGNAL_LEFT_SC", //	Turn signal left self-cancelling
 				11 => "SIGNAL_LEFT", //Turn signal left
